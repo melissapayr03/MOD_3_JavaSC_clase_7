@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+
+    <link rel="stylesheet" href="style_contraseña.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>KeyDrop ☺</h1>
+
+        <div class="resultado">
+            <input type="text" id="password" readonly>
+        </div>
+
+        <div class="opciones">
+            <h2> Seleccionar✔️</h2>
+
+            <label>
+                Longitud:
+                <input type="number" id="length" min="8" value="12">
+            </label>
+
+            <label>
+                <input type="checkbox" id="uppercase" checked>
+                Mayúsculas
+            </label>
+
+            <label>
+                <input type="checkbox" id="lowercase" checked>
+                Minúsculas
+            </label>
+
+            <label>
+                <input type="checkbox" id="numbers" checked>
+                Números
+            </label>
+
+            <label>
+                <input type="checkbox" id="symbols" checked>
+                Símbolos
+            </label>
+        </div>
+
+        <button id="botonpassword">
+            CREAR 🔑
+        </button>
+
+    </div>
+
+    <script src="contraseña.js"></script>
+
+</body>
+</html>
